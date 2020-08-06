@@ -3,7 +3,7 @@
 depcheck
 --------
 
-Analyze npm project dependencies.
+Analyze npm project dependencies using [depcheck](https://github.com/depcheck/depcheck).
 
 ```yaml
 ...
