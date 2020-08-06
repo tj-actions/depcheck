@@ -1,3 +1,5 @@
+![CI](https://github.com/tj-actions/depcheck/workflows/CI/badge.svg)
+
 depcheck
 --------
 
