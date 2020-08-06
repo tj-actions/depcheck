@@ -3,6 +3,8 @@ depcheck
 
 Analyze npm project dependencies.
 
+![sample](./sample.png)
+
 ```yaml
 ...
     steps:
