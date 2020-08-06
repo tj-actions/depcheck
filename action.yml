@@ -1,0 +1,22 @@
+name: depcheck
+description: Analyze npm project dependencies.
+author: tj-actions
+inputs:
+  token:
+    description: 'GITHUB_TOKEN or a Repo scoped PAT'
+    required: true
+    default: ${{ github.token }}
+  dir:
+    description: 'Location to run depcheck.'
+    required: false
+    default: '.'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.token }}
+    - ${{ inputs.dir }}
+branding:
+  icon: check-square
+  color: green
