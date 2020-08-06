@@ -1,7 +1,9 @@
+![CI](https://github.com/tj-actions/depcheck/workflows/CI/badge.svg)
+
 depcheck
 --------
 
-Analyze npm project dependencies.
+Analyze npm project dependencies using [depcheck](https://github.com/depcheck/depcheck).
 
 ![sample](./sample.png)
 
@@ -11,6 +13,8 @@ Analyze npm project dependencies.
       - uses: actions/checkout@v2
       - name: depcheck
         uses: tj-actions/depcheck@v0.a
+        with:
+          dir: '.'
 ```
 
 * Free software: [MIT license](LICENSE)
