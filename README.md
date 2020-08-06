@@ -1,4 +1,4 @@
-![CI](https://github.com/tj-actions/depcheck/workflows/CI/badge.svg)
+[![CI](https://github.com/tj-actions/depcheck/workflows/CI/badge.svg)](https://github.com/tj-actions/depcheck/actions?query=workflow%3ACI)
 
 depcheck
 --------
