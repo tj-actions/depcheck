@@ -1,4 +1,4 @@
-name: node-depcheck
+name: npm-depcheck
 description: Analyze npm project dependencies.
 author: tj-actions
 inputs:
