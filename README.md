@@ -12,7 +12,7 @@ Analyze npm project dependencies using [depcheck](https://github.com/depcheck/de
     steps:
       - uses: actions/checkout@v2
       - name: npm-depcheck
-        uses: tj-actions/depcheck@v0.a
+        uses: tj-actions/depcheck@v2
         with:
           extra-args: '.'
 ```
