@@ -14,16 +14,16 @@ Analyze npm project dependencies using [depcheck](https://github.com/depcheck/de
       - name: npm-depcheck
         uses: tj-actions/depcheck@v2
         with:
-          extra-args: '.'
+          dir: '.'
+          ignores: 'eslint,babel-*'
 ```
 
 * Free software: [MIT license](LICENSE)
 
 Features
 --------
-
-* TODO
-
+* Runs dependency checks using a specified location.
+* Ignores specific packages.
 
 Credits
 -------
