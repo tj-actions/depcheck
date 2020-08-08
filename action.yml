@@ -6,8 +6,8 @@ inputs:
     description: 'GITHUB_TOKEN or a Repo scoped PAT'
     required: true
     default: ${{ github.token }}
-  dir:
-    description: 'Location to run depcheck.'
+  extra-args:
+    description: 'Extra arguments defaults to current directory.'
     required: false
     default: '.'
 
@@ -16,7 +16,7 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.token }}
-    - ${{ inputs.dir }}
+    - ${{ inputs.extra-args }}
 branding:
   icon: check-square
   color: green
