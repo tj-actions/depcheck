@@ -14,7 +14,7 @@ Analyze npm project dependencies using [depcheck](https://github.com/depcheck/de
       - name: npm-depcheck
         uses: tj-actions/depcheck@v0.a
         with:
-          dir: '.'
+          extra-args: '.'
 ```
 
 * Free software: [MIT license](LICENSE)
