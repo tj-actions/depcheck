@@ -6,17 +6,22 @@ inputs:
     description: 'GITHUB_TOKEN or a Repo scoped PAT'
     required: true
     default: ${{ github.token }}
-  extra-args:
-    description: 'Extra arguments defaults to current directory.'
+  dir:
+    description: 'Directory to perform depcheck'
     required: false
     default: '.'
+  ignores:
+    description: 'Comma separated list of packages to ignore'
+    required: false
+    default: ''
 
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.token }}
-    - ${{ inputs.extra-args }}
+    - ${{ inputs.dir }}
+    - ${{ inputs.ignores }}
 branding:
   icon: check-square
   color: green
