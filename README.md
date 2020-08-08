@@ -12,7 +12,7 @@ Analyze npm project dependencies using [depcheck](https://github.com/depcheck/de
     steps:
       - uses: actions/checkout@v2
       - name: npm-depcheck
-        uses: tj-actions/depcheck@v2
+        uses: tj-actions/depcheck@v3
         with:
           dir: '.'
           ignores: 'eslint,babel-*'
