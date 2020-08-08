@@ -21,7 +21,7 @@ jobs:
         uses: ./
         id: depcheck
         with:
-          extra-args: './test-success'
+          dir: './test-success'
       - name: Validate exit code.
         if: steps.depcheck.outputs.exit_code != 0
         run: |
@@ -40,7 +40,7 @@ jobs:
         id: depcheck
         continue-on-error: true
         with:
-          extra-args: './test-failure'
+          dir: './test-failure'
       - name: Validate exit code.
         if: steps.depcheck.outputs.exit_code == 0
         run: |
