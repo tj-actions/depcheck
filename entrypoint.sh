@@ -3,9 +3,10 @@
 set -o pipefail
 
 
-EXTRA_ARGS=$2
+DIR=$2
+EXCLUDE=$3
 
-OUTPUT=$(depcheck ${EXTRA_ARGS} 2>&1) && exit_status=$? || exit_status=$?
+OUTPUT=$(depcheck --exclude="${EXCLUDE}" "${DIR}" 2>&1) && exit_status=$? || exit_status=$?
 echo "$OUTPUT"
 
 echo "::set-output name=exit_code::$exit_status"
