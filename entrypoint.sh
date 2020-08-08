@@ -3,9 +3,9 @@
 set -o pipefail
 
 
-DIR=$2
+EXTRA_ARGS=$2
 
-OUTPUT=$(depcheck "${DIR}" 2>&1) && exit_status=$? || exit_status=$?
+OUTPUT=$(depcheck "${EXTRA_ARGS}" 2>&1) && exit_status=$? || exit_status=$?
 echo "$OUTPUT"
 
 echo "::set-output name=exit_code::$exit_status"
