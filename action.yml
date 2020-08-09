@@ -18,10 +18,6 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.token }}
-    - ${{ inputs.dir }}
-    - ${{ inputs.ignores }}
 branding:
   icon: check-square
   color: green
