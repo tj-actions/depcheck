@@ -3,7 +3,7 @@
 depcheck
 --------
 
-Analyze npm project dependencies using [depcheck](https://github.com/depcheck/depcheck).
+Analyze node project dependencies using [depcheck](https://github.com/depcheck/depcheck).
 
 ![sample](./sample.png)
 
@@ -11,8 +11,8 @@ Analyze npm project dependencies using [depcheck](https://github.com/depcheck/de
 ...
     steps:
       - uses: actions/checkout@v2
-      - name: npm-depcheck
-        uses: tj-actions/depcheck@v3
+      - name: dep-check
+        uses: tj-actions/depcheck@v5
         with:
           dir: '.'
           ignores: 'eslint,babel-*'
