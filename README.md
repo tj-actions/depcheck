@@ -7,6 +7,9 @@ Analyze node project dependencies using [depcheck](https://github.com/depcheck/d
 
 ![sample](./sample.png)
 
+Usage
+-----
+
 ```yaml
 ...
     steps:
