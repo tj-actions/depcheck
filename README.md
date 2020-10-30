@@ -23,6 +23,17 @@ Usage
 
 * Free software: [MIT license](LICENSE)
 
+
+
+Inputs
+------
+
+|   Input        |    type     |  required     |  default             |
+|:-------------:|:-----------:|:-------------:|:---------------------:|
+| dir           |  `string`     |    `false`    | `.`                 |
+| ignores       |  `string`     |    `false`    |                     |
+
+
 Features
 --------
 * Runs dependency checks using a specified location.
