@@ -17,7 +17,6 @@ Usage
       - name: dep-check
         uses: tj-actions/depcheck@v5
         with:
-          dir: '.'
           ignores: 'eslint,babel-*'
 ```
 
