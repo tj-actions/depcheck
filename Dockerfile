@@ -7,7 +7,7 @@ LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
 
 RUN apk add bash curl
 
-RUN npm i -g depcheck
+RUN yarn global add depcheck
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
