@@ -15,7 +15,7 @@ Usage
     steps:
       - uses: actions/checkout@v2
       - name: dep-check
-        uses: tj-actions/depcheck@v5
+        uses: tj-actions/depcheck@v7
         with:
           ignores: 'eslint,babel-*'
 ```
