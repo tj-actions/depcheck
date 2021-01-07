@@ -23,7 +23,6 @@ Usage
 * Free software: [MIT license](LICENSE)
 
 
-
 Inputs
 ------
 
@@ -38,6 +37,7 @@ Features
 --------
 * Runs dependency checks using a specified location.
 * Ignores specific packages.
+
 
 Credits
 -------
