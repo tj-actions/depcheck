@@ -34,7 +34,6 @@ Inputs
 | `version`       |  `string`     |    `false`    | `1.3.1`             | Version of [depcheck](https://github.com/depcheck/depcheck/tags)           |
 
 
-
 Features
 --------
 * Runs dependency checks using a specified location.
