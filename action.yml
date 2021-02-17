@@ -24,4 +24,4 @@ runs:
   image: 'Dockerfile'
 branding:
   icon: check-square
-  color: green
+  color: white
