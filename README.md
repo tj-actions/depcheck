@@ -37,11 +37,7 @@ If you feel generous and want to show some extra appreciation:
 
 ## Inputs
 
-|   Input        |    type     |  required     |  default             | description                   |
-|:-------------:|:-----------:|:-------------:|:---------------------:|:-----------------------------:|
-| `dir`           |  `string`     |    `false`    | `.`                 | The directory to run [depcheck](https://github.com/depcheck/depcheck#readme) |
-| `ignores`       |  `string`     |    `false`    |                     | Packages to ignore            |
-| `version`       |  `string`     |    `false`    | `1.3.1`             | Version of [depcheck](https://github.com/depcheck/depcheck/tags)           |
+## Outputs
 
 ## Features
 
