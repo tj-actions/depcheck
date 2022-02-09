@@ -2,10 +2,6 @@ name: Run depcheck
 description: Analyze npm project dependencies.
 author: tj-actions
 inputs:
-  token:
-    description: 'GITHUB_TOKEN or a Repo scoped PAT'
-    required: true
-    default: ${{ github.token }}
   dir:
     description: 'Directory to perform depcheck'
     required: false
@@ -19,9 +15,25 @@ inputs:
     required: false
     default: '1.3.1'
 
+outputs:
+  exit_code:
+    description: 'depcheck exit code'
+    value: ${{ steps.depcheck.outputs.exit_code }}
+
+
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: 'composite'
+  steps:
+    - run: |
+        bash $GITHUB_ACTION_PATH/entrypoint.sh
+      id: depcheck
+      shell: bash
+      env:
+        # INPUT_<VARIABLE_NAME> is not available in Composite run steps
+        # https://github.community/t/input-variable-name-is-not-available-in-composite-run-steps/127611
+        INPUT_DIR: ${{ inputs.dir }}
+        INPUT_IGNORES: ${{ inputs.ignores }}
+        INPUT_VERSION: ${{ inputs.version }}
 branding:
   icon: check-square
   color: white
