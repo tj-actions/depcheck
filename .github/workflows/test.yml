@@ -18,8 +18,12 @@ jobs:
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1
   test-versions:
-    runs-on: ubuntu-latest
     name: Test installing versions
+    runs-on: ${{ matrix.platform }}
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [ubuntu-latest, windows-latest, macos-latest]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -47,8 +51,12 @@ jobs:
           dir: './test-success'
           version: '1.0.0'
   test-success:
-    runs-on: ubuntu-latest
     name: Test success depcheck
+    runs-on: ${{ matrix.platform }}
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [ubuntu-latest, windows-latest, macos-latest]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -63,8 +71,12 @@ jobs:
           echo "Invalid exit code returned from depcheck"
           exit 1
   test-failure:
-    runs-on: ubuntu-latest
     name: Test failure depcheck
+    runs-on: ${{ matrix.platform }}
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [ubuntu-latest, windows-latest, macos-latest]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
