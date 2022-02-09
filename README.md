@@ -11,7 +11,8 @@
 
 Analyze node project dependencies using [depcheck](https://github.com/depcheck/depcheck).
 
-![sample](./sample.png)
+![sample](https://user-images.githubusercontent.com/17484350/153099924-30a3945a-4094-4a2d-a00e-4dc104644ef2.png)
+
 
 ## Usage
 
