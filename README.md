@@ -39,11 +39,11 @@ If you feel generous and want to show some extra appreciation:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|  INPUT  |  TYPE  | REQUIRED |  DEFAULT  |                  DESCRIPTION                  |
-|---------|--------|----------|-----------|-----------------------------------------------|
-| dir     | string | false    | `"."`     | Directory to perform depcheck                 |
-| ignores | string | false    |           | Comma separated list of packages<br>to ignore |
-| version | string | false    | `"1.3.1"` | Provide a version for depcheck<br>            |
+|  INPUT  |  TYPE  | REQUIRED |  DEFAULT  |                                   DESCRIPTION                                    |
+|---------|--------|----------|-----------|----------------------------------------------------------------------------------|
+| dir     | string | false    | `"."`     | The directory to run [depcheck](https://github.com/depcheck/depcheck#readme)<br> |
+| ignores | string | false    |           | Comma separated list of packages<br>to ignore                                    |
+| version | string | false    | `"1.3.1"` | Version of [depcheck](https://github.com/depcheck/depcheck/tags)                 |
 
 <!-- AUTO-DOC-INPUT:END -->
 
