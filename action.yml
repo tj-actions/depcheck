@@ -15,12 +15,18 @@ inputs:
     required: false
     default: '1.3.1'
 
+outputs:
+  exit_code:
+    description: 'depcheck exit code'
+    value: ${{ steps.depcheck.outputs.exit_code }}
+
+
 runs:
   using: 'composite'
   steps:
     - run: |
         bash $GITHUB_ACTION_PATH/entrypoint.sh
-      id: remark
+      id: depcheck
       shell: bash
       env:
         # INPUT_<VARIABLE_NAME> is not available in Composite run steps
