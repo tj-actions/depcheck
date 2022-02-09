@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -o pipefail
+set -eo pipefail
 
 yarn global add depcheck@"${INPUT_VERSION}"
 
