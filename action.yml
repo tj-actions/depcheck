@@ -3,7 +3,7 @@ description: Analyze npm project dependencies.
 author: tj-actions
 inputs:
   dir:
-    description: 'Directory to perform depcheck'
+    description: 'The directory to run [depcheck](https://github.com/depcheck/depcheck#readme)'
     required: false
     default: '.'
   ignores:
@@ -11,7 +11,7 @@ inputs:
     required: false
     default: ''
   version:
-    description: 'Provide a version for depcheck'
+    description: 'Version of [depcheck](https://github.com/depcheck/depcheck/tags)'
     required: false
     default: '1.3.1'
 
