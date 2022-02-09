@@ -13,7 +13,6 @@ Analyze node project dependencies using [depcheck](https://github.com/depcheck/d
 
 ![sample](https://user-images.githubusercontent.com/17484350/153099924-30a3945a-4094-4a2d-a00e-4dc104644ef2.png)
 
-
 ## Usage
 
 ```yaml
@@ -38,7 +37,25 @@ If you feel generous and want to show some extra appreciation:
 
 ## Inputs
 
+<!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
+
+|  INPUT  |  TYPE  | REQUIRED |  DEFAULT  |                  DESCRIPTION                  |
+|---------|--------|----------|-----------|-----------------------------------------------|
+| dir     | string | false    | `"."`     | Directory to perform depcheck                 |
+| ignores | string | false    |           | Comma separated list of packages<br>to ignore |
+| version | string | false    | `"1.3.1"` | Provide a version for depcheck<br>            |
+
+<!-- AUTO-DOC-INPUT:END -->
+
 ## Outputs
+
+<!-- AUTO-DOC-OUTPUT:START - Do not remove or modify this section -->
+
+|  OUTPUT   |  TYPE  |    DESCRIPTION     |
+|-----------|--------|--------------------|
+| exit\_code | string | depcheck exit code |
+
+<!-- AUTO-DOC-OUTPUT:END -->
 
 ## Features
 
