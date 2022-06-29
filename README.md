@@ -19,7 +19,7 @@ Analyze node project dependencies using [depcheck](https://github.com/depcheck/d
 ...
     steps:
       - uses: actions/checkout@v2
-      - name: dep-check
+      - name: depcheck
         uses: tj-actions/depcheck@v8
         with:
           ignores: 'eslint,babel-*'
