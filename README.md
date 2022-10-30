@@ -41,9 +41,9 @@ If you feel generous and want to show some extra appreciation:
 
 |  INPUT  |  TYPE  | REQUIRED |  DEFAULT   |                                   DESCRIPTION                                    |
 |---------|--------|----------|------------|----------------------------------------------------------------------------------|
-| dir     | string | false    | `"."`      | The directory to run [depcheck](https://github.com/depcheck/depcheck#readme)<br> |
-| ignores | string | false    |            | Comma separated list of packages<br>to ignore                                    |
-| version | string | false    | `"latest"` | Version of [depcheck](https://github.com/depcheck/depcheck/tags)                 |
+|   dir   | string |  false   |   `"."`    | The directory to run [depcheck](https://github.com/depcheck/depcheck#readme)<br> |
+| ignores | string |  false   |            |                  Comma separated list of packages<br>to ignore                   |
+| version | string |  false   | `"latest"` |         Version of [depcheck](https://github.com/depcheck/depcheck/tags)         |
 
 <!-- AUTO-DOC-INPUT:END -->
 
