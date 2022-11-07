@@ -13,7 +13,7 @@ inputs:
   version:
     description: 'Version of [depcheck](https://github.com/depcheck/depcheck/tags)'
     required: false
-    default: 'latest'
+    default: '1.4.3'
 
 outputs:
   exit_code:
