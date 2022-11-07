@@ -1,5 +1,72 @@
 # Changelog
 
+## [Unreleased](https://github.com/tj-actions/depcheck/tree/HEAD)
+
+[Full Changelog](https://github.com/tj-actions/depcheck/compare/v9...HEAD)
+
+**Fixed bugs:**
+
+- Add test to include nested config files. [\#1](https://github.com/tj-actions/depcheck/issues/1)
+
+## [v9](https://github.com/tj-actions/depcheck/tree/v9) (2022-11-07)
+
+[Full Changelog](https://github.com/tj-actions/depcheck/compare/v8...v9)
+
+**Merged pull requests:**
+
+- chore: switch to npx [\#96](https://github.com/tj-actions/depcheck/pull/96) ([jackton1](https://github.com/jackton1))
+- Update dependency chai to v4.3.7 [\#95](https://github.com/tj-actions/depcheck/pull/95) ([renovate[bot]](https://github.com/apps/renovate))
+- Lock file maintenance [\#94](https://github.com/tj-actions/depcheck/pull/94) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.4.3 [\#93](https://github.com/tj-actions/depcheck/pull/93) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#92](https://github.com/tj-actions/depcheck/pull/92) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.4.2 [\#91](https://github.com/tj-actions/depcheck/pull/91) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.0 [\#90](https://github.com/tj-actions/depcheck/pull/90) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.15.5 [\#89](https://github.com/tj-actions/depcheck/pull/89) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump peter-evans/create-pull-request from 4.1.3 to 4.1.4 [\#88](https://github.com/tj-actions/depcheck/pull/88) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/verify-changed-files action to v12 [\#87](https://github.com/tj-actions/depcheck/pull/87) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.1.0 [\#86](https://github.com/tj-actions/depcheck/pull/86) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.3 [\#85](https://github.com/tj-actions/depcheck/pull/85) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.2 [\#84](https://github.com/tj-actions/depcheck/pull/84) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.2.0 [\#83](https://github.com/tj-actions/depcheck/pull/83) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/sync-release-version action to v13 [\#82](https://github.com/tj-actions/depcheck/pull/82) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.15 [\#81](https://github.com/tj-actions/depcheck/pull/81) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/verify-changed-files from 10 to 11 [\#80](https://github.com/tj-actions/depcheck/pull/80) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/auto-doc action to v1.4.1 [\#79](https://github.com/tj-actions/depcheck/pull/79) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.4.0 [\#78](https://github.com/tj-actions/depcheck/pull/78) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.3.1 [\#77](https://github.com/tj-actions/depcheck/pull/77) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.3.0 [\#76](https://github.com/tj-actions/depcheck/pull/76) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/github-changelog-generator from 1.13 to 1.14 [\#75](https://github.com/tj-actions/depcheck/pull/75) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Updated README.md [\#74](https://github.com/tj-actions/depcheck/pull/74) ([jackton1](https://github.com/jackton1))
+- chore: update default depcheck version [\#73](https://github.com/tj-actions/depcheck/pull/73) ([jackton1](https://github.com/jackton1))
+- Bump tj-actions/verify-changed-files from 9 to 10 [\#72](https://github.com/tj-actions/depcheck/pull/72) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update codacy/codacy-analysis-cli-action action to v4.1.0 [\#71](https://github.com/tj-actions/depcheck/pull/71) ([renovate[bot]](https://github.com/apps/renovate))
+- Lock file maintenance [\#70](https://github.com/tj-actions/depcheck/pull/70) ([renovate[bot]](https://github.com/apps/renovate))
+- Lock file maintenance [\#69](https://github.com/tj-actions/depcheck/pull/69) ([renovate[bot]](https://github.com/apps/renovate))
+- Lock file maintenance [\#68](https://github.com/tj-actions/depcheck/pull/68) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.2.15 [\#67](https://github.com/tj-actions/depcheck/pull/67) ([renovate[bot]](https://github.com/apps/renovate))
+- Lock file maintenance [\#66](https://github.com/tj-actions/depcheck/pull/66) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.15.3 [\#65](https://github.com/tj-actions/depcheck/pull/65) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.7 [\#64](https://github.com/tj-actions/depcheck/pull/64) ([renovate[bot]](https://github.com/apps/renovate))
+- Update github/codeql-action action to v2 [\#63](https://github.com/tj-actions/depcheck/pull/63) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.0.2 [\#62](https://github.com/tj-actions/depcheck/pull/62) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.6 [\#61](https://github.com/tj-actions/depcheck/pull/61) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.0.1 [\#60](https://github.com/tj-actions/depcheck/pull/60) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.15.2 [\#59](https://github.com/tj-actions/depcheck/pull/59) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.14.4 [\#58](https://github.com/tj-actions/depcheck/pull/58) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4 [\#57](https://github.com/tj-actions/depcheck/pull/57) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/remark from 2.3 to 3 [\#56](https://github.com/tj-actions/depcheck/pull/56) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/auto-doc action to v1.2.14 [\#55](https://github.com/tj-actions/depcheck/pull/55) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.13 [\#54](https://github.com/tj-actions/depcheck/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v9 [\#52](https://github.com/tj-actions/depcheck/pull/52) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.0.2 [\#51](https://github.com/tj-actions/depcheck/pull/51) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.0.1 [\#50](https://github.com/tj-actions/depcheck/pull/50) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action [\#49](https://github.com/tj-actions/depcheck/pull/49) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.12 [\#48](https://github.com/tj-actions/depcheck/pull/48) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/sync-release-version action to v11 [\#47](https://github.com/tj-actions/depcheck/pull/47) ([renovate[bot]](https://github.com/apps/renovate))
+- Lock file maintenance [\#46](https://github.com/tj-actions/depcheck/pull/46) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#45](https://github.com/tj-actions/depcheck/pull/45) ([jackton1](https://github.com/jackton1))
+- Upgraded to v8 [\#44](https://github.com/tj-actions/depcheck/pull/44) ([jackton1](https://github.com/jackton1))
+
 ## [v8](https://github.com/tj-actions/depcheck/tree/v8) (2022-02-09)
 
 [Full Changelog](https://github.com/tj-actions/depcheck/compare/v7.2...v8)
