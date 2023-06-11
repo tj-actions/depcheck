@@ -42,7 +42,7 @@ If you feel generous and want to show some extra appreciation:
 |  INPUT  |  TYPE  | REQUIRED |  DEFAULT  |                                 DESCRIPTION                                  |
 |---------|--------|----------|-----------|------------------------------------------------------------------------------|
 |   dir   | string |  false   |   `"."`   | The directory to run [depcheck](https://github.com/depcheck/depcheck#readme) |
-| ignores | string |  false   |           |                Comma separated list of packages<br>to ignore                 |
+| ignores | string |  false   |           |               Comma separated list of packages <br>to ignore                 |
 | version | string |  false   | `"1.4.3"` |       Version of [depcheck](https://github.com/depcheck/depcheck/tags)       |
 
 <!-- AUTO-DOC-INPUT:END -->
