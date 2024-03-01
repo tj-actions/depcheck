@@ -18,7 +18,7 @@ Analyze node project dependencies using [depcheck](https://github.com/depcheck/d
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: depcheck
         uses: tj-actions/depcheck@v9
         with:
