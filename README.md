@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c7fa2bafe53a46159199af71b805b312)](https://app.codacy.com/gh/tj-actions/depcheck?utm_source=github.com\&utm_medium=referral\&utm_content=tj-actions/depcheck\&utm_campaign=Badge_Grade_Settings)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d1e91469175347b8afc72617f17efd9e)](https://app.codacy.com/gh/tj-actions/depcheck/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![CI](https://github.com/tj-actions/depcheck/workflows/CI/badge.svg)](https://github.com/tj-actions/depcheck/actions?query=workflow%3ACI)
 [![Update release version.](https://github.com/tj-actions/depcheck/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/depcheck/actions/workflows/sync-release-version.yml)
 [![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fdepcheck%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+depcheck+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
