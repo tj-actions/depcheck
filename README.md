@@ -47,7 +47,7 @@ If you feel generous and want to show some extra appreciation:
 |-------------------------------------------------------|--------|----------|-----------|------------------------------------------------------------------------------|
 |       <a name="input_dir"></a>[dir](#input_dir)       | string |  false   |   `"."`   | The directory to run [depcheck](https://github.com/depcheck/depcheck#readme) |
 | <a name="input_ignores"></a>[ignores](#input_ignores) | string |  false   |           |               Comma separated list of packages <br>to ignore                 |
-| <a name="input_version"></a>[version](#input_version) | string |  false   | `"1.4.3"` |       Version of [depcheck](https://github.com/depcheck/depcheck/tags)       |
+| <a name="input_version"></a>[version](#input_version) | string |  false   | `"1.4.7"` |       Version of [depcheck](https://github.com/depcheck/depcheck/tags)       |
 
 <!-- AUTO-DOC-INPUT:END -->
 
