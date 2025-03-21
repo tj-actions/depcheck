@@ -15,6 +15,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "daveisfera",
+      "name": "Dave Johansen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1686193?v=4",
+      "profile": "https://github.com/daveisfera",
+      "contributions": [
+        "code",
+        "doc",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
