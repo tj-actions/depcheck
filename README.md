@@ -8,7 +8,9 @@
 [![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows\&logoColor=white)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## depcheck
@@ -47,7 +49,7 @@ If you feel generous and want to show some extra appreciation:
 |-------------------------------------------------------|--------|----------|-----------|------------------------------------------------------------------------------|
 |       <a name="input_dir"></a>[dir](#input_dir)       | string |  false   |   `"."`   | The directory to run [depcheck](https://github.com/depcheck/depcheck#readme) |
 | <a name="input_ignores"></a>[ignores](#input_ignores) | string |  false   |           |               Comma separated list of packages <br>to ignore                 |
-| <a name="input_version"></a>[version](#input_version) | string |  false   | `"1.4.3"` |       Version of [depcheck](https://github.com/depcheck/depcheck/tags)       |
+| <a name="input_version"></a>[version](#input_version) | string |  false   | `"1.4.7"` |       Version of [depcheck](https://github.com/depcheck/depcheck/tags)       |
 
 <!-- AUTO-DOC-INPUT:END -->
 
@@ -85,8 +87,11 @@ If you are reporting a bug, please include:
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
+
 <table>
   <tbody>
     <tr>
@@ -97,6 +102,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 </table>
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
