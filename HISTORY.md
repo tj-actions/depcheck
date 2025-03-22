@@ -1,5 +1,75 @@
 # Changelog
 
+# [9.2.1](https://github.com/tj-actions/depcheck/compare/v9.2.0...v9.2.1) - (2025-03-22)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Update sync-release-version.yml ([#186](https://github.com/tj-actions/depcheck/issues/186)) ([01f19cf](https://github.com/tj-actions/depcheck/commit/01f19cf33a52ed98ec1f49c8e710ab32171cfce4))  - (Tonye Jack)
+
+# [9.2.0](https://github.com/tj-actions/depcheck/compare/v9.1.0...v9.2.0) - (2025-03-21)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Error with update readme workflow ([#183](https://github.com/tj-actions/depcheck/issues/183)) ([907f0be](https://github.com/tj-actions/depcheck/commit/907f0be8783f197ff796d68c91a81b65084e84d6))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Remove docker check in dependabot
+
+Related to 7bc1293bc1e39c536d90061e16840ff46ecea7c1
+ ([2632863](https://github.com/tj-actions/depcheck/commit/2632863cac865d6dc1a10c5af78b85716d99bb04))  - (Dave Johansen)
+- Deleted renovate.json ([f26653c](https://github.com/tj-actions/depcheck/commit/f26653c0ff329d09977660e0a2d20ef6db4cbb5a))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#184](https://github.com/tj-actions/depcheck/issues/184))
+
+Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([71ad66f](https://github.com/tj-actions/depcheck/commit/71ad66fed292735f0f0fc425d18aa45bd341def2))  - (github-actions[bot])
+
+## <!-- 3 -->📚 Documentation
+
+- Add daveisfera as a contributor for code, doc, and review ([#182](https://github.com/tj-actions/depcheck/issues/182)) ([804275b](https://github.com/tj-actions/depcheck/commit/804275b450f48ae3836cf85e79bd85ecc3eb3d36))  - (allcontributors[bot])
+
+## <!-- 30 -->📝 Other
+
+- PR [#180](https://github.com/tj-actions/depcheck/pull/180): docker check in dependabot ([5c36822](https://github.com/tj-actions/depcheck/commit/5c36822efdc36f0a9e35cabe479e772419de1ca4))  - (Dave Johansen)
+- PR [#179](https://github.com/tj-actions/depcheck/pull/179): set-output to GITHUB_OUTPUT ([8c69cc6](https://github.com/tj-actions/depcheck/commit/8c69cc6263ed6fa7e2f7207b0c7ab7278ec6125a))  - (Dave Johansen)
+- Double quote to make linter happy
+ ([d348185](https://github.com/tj-actions/depcheck/commit/d34818552c96dbec88c1eb5443c73d496c85d2fc))  - (Dave Johansen)
+- Change set-output to GITHUB_OUTPUT
+
+https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+ ([d5d2d5f](https://github.com/tj-actions/depcheck/commit/d5d2d5f167acb4ad0810e844d7f0fa8ffe19968c))  - (Dave Johansen)
+- Use latest version as default ([#181](https://github.com/tj-actions/depcheck/issues/181))
+
+https://github.com/depcheck/depcheck/releases/tag/v1.4.7 ([fc67334](https://github.com/tj-actions/depcheck/commit/fc67334bbfad01e8ab96bc3de3de77199f7609fe))  - (Dave Johansen)
+- PR [#174](https://github.com/tj-actions/depcheck/pull/174): update peter-evans/create-pull-request action to v7 ([117a2cd](https://github.com/tj-actions/depcheck/commit/117a2cddc5f61b7b7096b2b940b4dd8948e11b7b))  - (Dave Johansen)
+- PR [#164](https://github.com/tj-actions/depcheck/pull/164): update tj-actions/verify-changed-files action to v20 ([93490e2](https://github.com/tj-actions/depcheck/commit/93490e2e7a19f73216db4d98739603ae1339d42d))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update peter-evans/create-pull-request action to v7 ([31d3f4c](https://github.com/tj-actions/depcheck/commit/31d3f4ccdf197ea3eab0a5191a355c437463066f))  - (renovate[bot])
+- **deps:** Update dependency chai to v5.2.0 ([#178](https://github.com/tj-actions/depcheck/issues/178)) ([85ed073](https://github.com/tj-actions/depcheck/commit/85ed073792022a724ed66c4ca094dde50f617ec6))  - (renovate[bot])
+- **deps:** Lock file maintenance ([#177](https://github.com/tj-actions/depcheck/issues/177)) ([dd4ab98](https://github.com/tj-actions/depcheck/commit/dd4ab988086cd97d9eca849bc97cea5782e7d5bf))  - (renovate[bot])
+- **deps:** Update dependency chai to v5.1.2 ([84d8159](https://github.com/tj-actions/depcheck/commit/84d815967e2b7093e26716be777f64e94131ab84))  - (renovate[bot])
+- **deps:** Lock file maintenance ([ec71eba](https://github.com/tj-actions/depcheck/commit/ec71eba9220b2f7c7063baf8a41aeaeccd37486d))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.5 ([c82373e](https://github.com/tj-actions/depcheck/commit/c82373edebedfa16409de5fcb8edd880c382fcad))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.4 ([707f72f](https://github.com/tj-actions/depcheck/commit/707f72f230c44cebfd4842a47077e60f0d258a19))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.2 ([890c2d8](https://github.com/tj-actions/depcheck/commit/890c2d86c69c7731bc2505756f5312e0712a3be3))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.1.0 ([22bdd05](https://github.com/tj-actions/depcheck/commit/22bdd05c456af48563a5a638aa1d3119419a7c6d))  - (renovate[bot])
+- **deps:** Lock file maintenance ([44bc86f](https://github.com/tj-actions/depcheck/commit/44bc86f5ee510db7685418aeea71e296b57ab668))  - (renovate[bot])
+- **deps:** Lock file maintenance ([474811c](https://github.com/tj-actions/depcheck/commit/474811c05b7a7ba373dd8027416ae7d085bb1780))  - (renovate[bot])
+- **deps:** Lock file maintenance ([7db842c](https://github.com/tj-actions/depcheck/commit/7db842cbb8d0761c34fde14d097e4d1adcdfa96c))  - (renovate[bot])
+- **deps:** Update dependency chai to v5.1.1 ([d3d0dfe](https://github.com/tj-actions/depcheck/commit/d3d0dfe5c618e5c785cf1158186750861588e7a7))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.1 ([1b7af91](https://github.com/tj-actions/depcheck/commit/1b7af91d637866f27a74763fc5c3fdab134adbd4))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v20 ([ff2b1bb](https://github.com/tj-actions/depcheck/commit/ff2b1bb807feef2efe5dbfbf2a408eaae7598091))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v7.2 -> v9 ([#163](https://github.com/tj-actions/depcheck/issues/163))
+
+Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([f7b85c7](https://github.com/tj-actions/depcheck/commit/f7b85c7eeb5e9a098e3521c66eda2bb571d5b907))  - (tj-actions[bot])
+
 # [9.1.0](https://github.com/tj-actions/depcheck/compare/v8...v9.1.0) - (2024-04-28)
 
 ## <!-- 13 -->📦 Bumps
